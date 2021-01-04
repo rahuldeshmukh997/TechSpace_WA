@@ -1,0 +1,21 @@
+.navbar .navbar-nav .nav-item a{
+    color:#6ab04c;
+}
+
+.navbar .navbar-nav .nav-item a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.dropdown-menu{
+    background-color: black;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+    color:#6ab04c;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+    color: black;
+    border-bottom: 2px solid white;
+}
