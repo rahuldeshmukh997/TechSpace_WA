@@ -9,7 +9,8 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custome CSS -->
-    <link rel="stylesheet" href="/css/style.css"> 
+    <!-- <link rel="stylesheet" href="/css/style.css">  -->
+    <link href="css/signup.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
     <title>TechSpace | Home</title>
   </head>
@@ -76,24 +77,3 @@
     <!--====================================================== News Content ========================================================================  -->
 
     <div class="container-fluid">
-        <div class="row">
-            <div class="news-1">
-                <rssapp-wall id="VKfbIdtm7evBvq80"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
-            </div>
-        </div>   
-        <div class="row"> 
-            <div class="news-2">
-                <rssapp-wall id="jvX3M63UiWHhtZwz"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
-            </div>
-        </div>
-    </div>
-
-    <!--====================================================== End News Content ========================================================================  -->
-
-    <!-- jQuery File -->
-    <script src="/js/jquery.min.js"></script>
-    
-    <!-- Bootstrap jQuery file -->
-    <script src="/js/bootstrap.min.js"></script>
-  </body>
-</html>
