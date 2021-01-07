@@ -11,7 +11,7 @@
         <link href="css/signup.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <form action="signup.inc.php" class="box" method="POST">
+        <form action="includes/signup.inc.php" class="box" method="POST">
             <h1>Sign Up</h1>
             <input type="text" name="name" placeholder="Full Name">
             <input type="email" name="email" placeholder="Email">
