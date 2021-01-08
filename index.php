@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Bootstrap CSS -->
-        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custome CSS -->
         <!-- <link rel="stylesheet" href="/css/style.css">  -->
@@ -24,7 +24,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/index.html">
-                    <img src="/images/crop.jpg" alt="" width="30" height="24" class="d-inline-block align-top">
+                    <img src="images/crop.jpg" alt="" width="30" height="24" class="d-inline-block align-top">
                     <span>TechSpace</span> 
                 </a>
                 <!-- <a class="navbar-brand" href="#">TechSpace</a> -->
@@ -96,10 +96,10 @@
         <!--====================================================== End News Content ========================================================================  -->
 
         <!-- jQuery File -->
-        <script src="/js/jquery.min.js"></script>
+        <script src="js/jquery.min.js"></script>
         
         <!-- Bootstrap jQuery file -->
-        <script src="/js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
     </html>
 

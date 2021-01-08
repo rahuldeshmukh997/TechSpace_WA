@@ -1,12 +1,13 @@
 <?php
 
 $serverName =  "localhost";
-$dbUserName =  "root";
+$dbUsername =  "root";
 $dbPassword =  "";
 $dbName =  "techspace";
 
-$conn = mysqli_connect($serverName, $dbUserName, $dbPassword, $dbName);
+$conn = mysqli_connect($serverName, $dbUsername, $dbPassword, $dbName);
 
 if (!$conn){
     die("Connection Failed: " . mysqli_connect_error());
 }
+

@@ -18,7 +18,9 @@
             <input type="text" name="uid" placeholder="Username">
             <input type="password" name="pwd" placeholder="Password">
             <input type="password" name="pwdrepeat" placeholder="Confirm Password">
-            <input type="submit" name="submit" value="Sign Up"> 
+            <!-- <input type="submit" name="submit" value="Sign Up">  -->
+            <button type="submit" name="submit" value="Sign Up">Sign Up</button>
+            
             <span>
                 <p>Already have Account ?<a href="/login.php"><b> Login</b></a></p>
             </span>

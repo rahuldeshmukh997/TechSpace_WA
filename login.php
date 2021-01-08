@@ -15,7 +15,8 @@
             <h1>Login</h1>
             <input type="text" name="name" placeholder="Full Name / Email">
             <input type="password" name="pwd" placeholder="Password">
-            <input type="submit" name="" value="Login"> 
+            <!-- <input type="submit" name="" value="Login">  -->
+            <button type="submit" name="Log In" value="Log In">Log In</button>
             <button type="button" name="" value="Sign Up"><a href="/signup.html">Sign Up</a></button>
         </form>
     </body>
