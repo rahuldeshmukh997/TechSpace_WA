@@ -1,3 +1,10 @@
+<?php
+
+    session_start();
+
+?>
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -59,13 +66,25 @@
                         </li>  
                         <li class="nav-item ms-5">
                             <a class="nav-link" href="#">About Us</a>
-                        </li>    
-                        <li class="nav-item ms-5">
-                            <a class="nav-link" href="/signup.php">Sign Up</a>
-                        </li>    
-                        <li class="nav-item ms-5">
-                            <a class="nav-link" href="login.php">Login</a>
-                        </li>    
+                        </li>   
+
+                        <?php
+
+                            if(isset($_SESSION["useruid"])){
+
+                                echo "<li class='nav-item ms-5'><a class='nav-link' href='index.php'>Home Page</a></li>";
+                                   
+                                echo "<li class='nav-item ms-5'><a class='nav-link' href='logout.php'>Log Out</a></li>";
+                             
+                            }
+                            else {
+
+                                echo "<li class='nav-item ms-5'><a class='nav-link' href='signup.php'>Sign Up</a></li>";
+                                   
+                                echo "<li class='nav-item ms-5'><a class='nav-link' href='login.php'>Login</a></li>";
+                            }
+
+                        ?>
                     </ul>
                 </div>
             </div>    

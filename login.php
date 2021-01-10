@@ -13,11 +13,25 @@
     <body>
         <form action="includes/login.inc.php" class="box">
             <h1>Login</h1>
-            <input type="text" name="name" placeholder="Full Name / Email">
+            <input type="text" name="uid" placeholder="Full Name / Email">
             <input type="password" name="pwd" placeholder="Password">
             <!-- <input type="submit" name="" value="Login">  -->
-            <button type="submit" name="Log In" value="Log In">Log In</button>
-            <button type="button" name="" value="Sign Up"><a href="/signup.html">Sign Up</a></button>
+            <button type="submit" name="submit" value="Log In">Log In</button>
+            <button type="button" name="" value="Sign Up"><a href="signup.php">Sign Up</a></button>
+
+            <span>
+                <?php
+
+                    if(isset($_GET["error"])){
+                        if($_GET["error"] == "emptyinput"){
+                            echo "<p>Fill in all fields !</p>";
+                        }
+                        else if ($_GET["error"] == "wronglogin") {
+                            echo "<p>Incorrect login information !</p>";
+                        }
+                    }
+                ?>
+            </span>
         </form>
     </body>
     </html>
