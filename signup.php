@@ -6,7 +6,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>TechSpace | Login</title> -->
+        <title>TechSpace | Sign Up</title> 
         <!-- <link rel="stylesheet" href="/css/signup.css">   -->
         <link href="css/signup.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
     </head>
