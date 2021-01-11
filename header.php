@@ -7,7 +7,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,8 +20,8 @@
     <link href="css/signup.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
     <title>TechSpace | Home</title>
-  </head>
-  <body>
+</head>
+<body>
     <!--====================================================== Navigation Bar ========================================================================  -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
