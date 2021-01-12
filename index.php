@@ -1,35 +1,27 @@
 <?php
-// Initialize the session
-session_start();
- 
-// Check if the user is logged in, if not then redirect him to login page
-if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-    header("location: login.php");
-    exit;
-}
+
+    include "logic.php";
+
 ?>
- 
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <!-- Custome CSS -->
     <link rel="stylesheet" href="css/style.css"> 
-    
-    <title>TechSpace | Home</title>
 
-    <style type="text/css">
-        body h1{ font: 24px sans-serif; text-align: center; }
-    </style>
-    
-  </head>
-  <body>
+    <title>TechSpace | Blog</title>
+</head>
+<body>
     <!--====================================================== Navigation Bar ========================================================================  -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -46,7 +38,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item ms-5">
-                            <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="welcome.php">Home</a>
                         </li>
                         <li class="nav-item dropdown ms-5">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Knoledge</a>
@@ -91,29 +83,56 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
     <!--====================================================== End Navigation Bar ========================================================================  -->
 
-    <!--====================================================== News Content ========================================================================  -->
-    <div class="page-header">
-        <h1>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to TechSpace.</h1>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="news-1">
-                <rssapp-wall id="VKfbIdtm7evBvq80"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
-            </div>
-        </div>   
-        <div class="row"> 
-            <div class="news-2">
-                <rssapp-wall id="jvX3M63UiWHhtZwz"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
-            </div>
+    <!-- ===================================================== Start Blog ================================================================================= -->
+    <div class="container mt-5">
+
+        <!-- Display any info -->
+        <?php if(isset($_REQUEST['info'])){ ?>
+            <?php if($_REQUEST['info'] == "added"){?>
+                <div class="alert alert-success" role="alert">
+                    Post has been added successfully
+                </div>
+            <?php }?>
+        <?php } ?>
+
+        <!-- Create a new Post button -->
+        <div class="text-center">
+            <a href="create.php" class="btn btn-outline-dark">+ Create a new post</a>
         </div>
+
+        <!-- Display posts from database -->
+        <div class="row">
+            <?php foreach($query as $q){ ?>
+                <div class="col-12 col-lg-4 d-flex justify-content-center">
+                    <div class="card text-white bg-dark mt-5" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title"><?php echo $q['title'];?></h5>
+                            <p class="card-text"><?php echo substr($q['content'], 0, 50);?>...</p>
+                            <a href="view.php?id=<?php echo $q['id']?>" class="btn btn-light">Read More <span class="text-danger">&rarr;</span></a>
+                        </div>
+                    </div>
+                </div>
+            <?php }?>
+        </div>
+       
     </div>
 
-    <!--====================================================== End News Content ========================================================================  -->
+    <!-- ===================================================== End Blog ================================================================================= -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
     <!-- jQuery File -->
     <script src="js/jquery.min.js"></script>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
     <!-- Bootstrap jQuery file -->
     <script src="js/bootstrap.min.js"></script>
-  </body>
+
+</body>
 </html>
+
+
