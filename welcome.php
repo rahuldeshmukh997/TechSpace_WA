@@ -1,13 +1,17 @@
 <?php
-
-    session_start();
-
+// Initialize the session
+session_start();
+ 
+// Check if the user is logged in, if not then redirect him to login page
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: login.php");
+    exit;
+}
 ?>
-
-
+ 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,12 +20,16 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custome CSS -->
-    <!-- <link rel="stylesheet" href="/css/style.css">  -->
-    <link href="css/signup.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-
+    <link rel="stylesheet" href="css/style.css"> 
+    
     <title>TechSpace | Home</title>
-</head>
-<body>
+
+    <style type="text/css">
+        body h1{ font: 24px sans-serif; text-align: center; }
+    </style>
+    
+  </head>
+  <body>
     <!--====================================================== Navigation Bar ========================================================================  -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -50,7 +58,7 @@
                             </ul>
                         </li>
                         <li class="nav-item ms-5">
-                            <a class="nav-link" href="/article.html">Article</a>
+                            <a class="nav-link" href="article.php">Article</a>
                         </li>
                         <li class="nav-item ms-5">
                             <a class="nav-link" href="#">Product Reviews</a>
@@ -64,27 +72,17 @@
                                 <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                             </ul>
                         </li>  
+                        <li class="nav-item dropdown ms-5">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profile</a>
+                            <ul class="dropdown-menu mr-5" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="reset-password.php">Reset Password</a></li>
+                                <li><a class="dropdown-item" href="logout.php">Sign Out</a></li>
+                            </ul>
+                        </li>  
                         <li class="nav-item ms-5">
                             <a class="nav-link" href="#">About Us</a>
-                        </li>   
-
-                        <?php
-
-                            if(isset($_SESSION["useruid"])){
-
-                                echo "<li class='nav-item ms-5'><a class='nav-link' href='index.php'>Home Page</a></li>";
-                                   
-                                echo "<li class='nav-item ms-5'><a class='nav-link' href='includes/logout.inc.php'>Log Out</a></li>";
-                             
-                            }
-                            else {
-
-                                echo "<li class='nav-item ms-5'><a class='nav-link' href='signup.php'>Sign Up</a></li>";
-                                   
-                                echo "<li class='nav-item ms-5'><a class='nav-link' href='login.php'>Login</a></li>";
-                            }
-
-                        ?>
+                        </li>    
+                        
                     </ul>
                 </div>
             </div>    
@@ -94,5 +92,28 @@
     <!--====================================================== End Navigation Bar ========================================================================  -->
 
     <!--====================================================== News Content ========================================================================  -->
-
+    <div class="page-header">
+        <h1>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to TechSpace.</h1>
+    </div>
     <div class="container-fluid">
+        <div class="row">
+            <div class="news-1">
+                <rssapp-wall id="VKfbIdtm7evBvq80"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+            </div>
+        </div>   
+        <div class="row"> 
+            <div class="news-2">
+                <rssapp-wall id="jvX3M63UiWHhtZwz"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+            </div>
+        </div>
+    </div>
+
+    <!--====================================================== End News Content ========================================================================  -->
+
+    <!-- jQuery File -->
+    <script src="js/jquery.min.js"></script>
+    
+    <!-- Bootstrap jQuery file -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
