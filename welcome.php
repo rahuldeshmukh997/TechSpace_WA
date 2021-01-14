@@ -46,7 +46,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item ms-5">
-                            <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown ms-5">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Knoledge</a>
@@ -61,7 +61,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                             <a class="nav-link" href="index.php">Blog</a>
                         </li>
                         <li class="nav-item ms-5">
-                            <a class="nav-link" href="#">Product Reviews</a>
+                            <a class="nav-link" href="product.index.php">Product Reviews</a>
                         </li>
                         <li class="nav-item dropdown ms-5">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Queries</a>
@@ -103,7 +103,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         </div>   
         <div class="row"> 
             <div class="news-2">
-                <rssapp-wall id="jvX3M63UiWHhtZwz"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+                <rssapp-wall id="PeNNCXa9qXfMNI9D"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
             </div>
         </div>
     </div>
