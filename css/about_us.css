@@ -13,14 +13,14 @@
 
 .about_us{
     min-height: 100vh;
-    /* display: flex; */
+    display: flex; 
     align-items: center;
     justify-content: center;
     background-color: #f1f1f1;
 }
 
 .about-section{
-    background: url(images/pic.jpg) no-repeat left;
+    background: url(about.jpg) no-repeat left;
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
@@ -37,25 +37,96 @@
 }
 
 .inner-container h1{
+    border-bottom-width: 1px white;
+    border-bottom-style: solid;
+    padding: 10px;
+    margin-top: 30px;
     margin-bottom: 30px;
     font-size: 30px;
     font-weight: 900;
 }
 
 .text{
-    font-size: 13px;
+    border-bottom-width: 1px white;
+    border-bottom-style: solid;
+    padding: 10px;
+    font-size: 20px;
     color: white;
     line-height: 30px;
     text-align: justify;
     margin-bottom: 40px;
 }
 
-/* .skills{
+.skills{
     display: flex;
     justify-content: space-between;
     font-weight: 700;
-    font-size: 13px;
-} */
+    font-size: 20px;
+} 
+/* ================================================================================ */
+
+.box-img-2{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.about_us-2{
+    min-height: 100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.about-section-2{
+    background: url(about.jpg) no-repeat right;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container-2{
+    color: white;
+    width: 55%;
+    float: left;
+    /* background-color: #fdfdfd; */
+    background-color: black;
+    padding: 150px;
+}
+
+.inner-container-2 h1{
+    border-bottom-width: 1px white;
+    border-bottom-style: solid;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text-2{
+    border-bottom-width: 1px white;
+    border-bottom-style: solid;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills-2{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 20px;
+} 
+
+
+
+
 
 @media screen and (max-width:1200px){
     .inner-container{

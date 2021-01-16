@@ -77,17 +77,38 @@
         <div class="about-section">
             <div class="inner-container">
                 <div class="box">
-                    <img src="profile.jpg" alt="" class="box-img">
+                    <img src="images/suyash.jpg" alt="" class="box-img">
                 </div>
-                <h1>About Us</h1>
+                <h1>Suyash Deshmukh</h1>
                 <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit ducimus, enim inventore earum, eligendi nostrum pariatur necessitatibus eius dicta a voluptates sit deleniti autem error eos totam nisi neque voluptates sit deleniti autem error eos totam nisi neque.
+                    Hello guys,
+                    I'm Suyash Deshmukh pursuing TY.Bsc.IT from Model college, Dombivli. This website Techspace as name suggests provide all the technology or technical related information at one place. Whether it's new invented technology in the world or about any product you want to buy. Hope this website will fullfill your need. Also we are trying to improve and to add new features to this website in the near future.
                 </p>
-                <!-- <div class="skills">
-                    <span>Web Design</span>
-                    <span>Photoshop & Illustrator</span>
-                    <span>Coding</span>
-                </div> -->
+                <div class="skills">
+                    <!-- <span>Web Design</span> -->
+                    <span>Founder of TechSpace</span>
+                    <!-- <span>Coding</span> -->
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <div class="about_us-2">
+        <div class="about-section-2">
+            <div class="inner-container-2">
+                <div class="box-2">
+                    <img src="images/suyash.jpg" alt="" class="box-img-2">
+                </div>
+                <h1>Suyash Deshmukh</h1>
+                <p class="text-2">
+                    Hello guys,
+                    I'm Suyash Deshmukh pursuing TY.Bsc.IT from Model college, Dombivli. This website Techspace as name suggests provide all the technology or technical related information at one place. Whether it's new invented technology in the world or about any product you want to buy. Hope this website will fullfill your need. Also we are trying to improve and to add new features to this website in the near future.
+                </p>
+                <div class="skills-2">
+                    <!-- <span>Web Design</span> -->
+                    <span>Founder of TechSpace</span>
+                    <!-- <span>Coding</span> -->
+                </div> 
             </div>
         </div>
     </div>
