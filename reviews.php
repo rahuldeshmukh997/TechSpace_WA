@@ -81,3 +81,4 @@ if (isset($_GET['page_id'])) {
     <p class="content"><?=htmlspecialchars($review['content'], ENT_QUOTES)?></p>
 </div>
 <?php endforeach ?>
+

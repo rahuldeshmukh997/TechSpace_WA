@@ -19,6 +19,10 @@
     <!-- Custome CSS -->
     <link rel="stylesheet" href="css/style.css"> 
 
+    <!-- Footer CSS -->
+    <link rel="stylesheet" href="css/footer.css"> 
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
     <title>TechSpace | Edit Blog</title>
 </head>
 <body>
@@ -97,19 +101,85 @@
    </div>
 
    <!--====================================================== End Edit Blog ========================================================================  -->
+    
+    <!--====================================================== Start Footer ========================================================================  -->
 
-     <!-- Bootstrap JS -->
-     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<footer class="footer-distributed">
 
-<!-- jQuery File -->
-<script src="js/jquery.min.js"></script>
+        <div class="footer-left">
+            <!-- <h3>Tech<span>Space</span></h3>
 
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+            <p class="footer-links">
+                <a href="#">Home</a>
+                |
+                <a href="#">Blog</a>
+                |
+                <a href="#">Reviews</a>
+                |
+                <a href="#">About</a>
+            </p>
 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+            <p class="footer-company-name">© 2021 TechSpace<br>Developed by Suyash Deshmukh</p> -->
+        </div> 
 
-<!-- Bootstrap jQuery file -->
-<script src="js/bootstrap.min.js"></script>
+        <div class="footer-center">
+            <!-- <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Dombivli</span>
+                    Mumbai</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 9898989898</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@TechSpace.com">support@TechSpace.com</a></p>
+            </div> -->
+            <h3>Tech<span>Space</span></h3>
+
+            <!-- <p class="footer-links">
+                <a href="#">Home</a>
+                |
+                <a href="#">Blog</a>
+                |
+                <a href="#">Reviews</a>
+                |
+                <a href="#">About</a>
+            </p><br>   -->
+
+            <br><p class="footer-company-name">© 2021 TechSpace <br> Developed by Suyash Deshmukh & Suyash Deshmukh</p>
+        </div>
+        <!-- <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About TechSpace</span>
+                Techspace as name suggests provide all the technology or technical related information at one place.</p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+            </div> 
+        </div>  -->
+    </footer>
+
+
+<!--====================================================== End Footer ========================================================================  -->
+     
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <!-- jQuery File -->
+    <script src="js/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap jQuery file -->
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
