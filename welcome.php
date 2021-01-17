@@ -84,7 +84,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                             </ul>
                         </li>  
                         <li class="nav-item ms-5">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="about_us.php">About Us</a>
                         </li>    
                         
                     </ul>
