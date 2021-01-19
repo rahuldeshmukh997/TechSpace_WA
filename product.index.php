@@ -13,6 +13,10 @@
 
     <!-- Custome CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/queries_style.css">
+
+    <!-- Responsive CSS File -->
+    <link rel="stylesheet" href="css/responsive.css">
     
     <!-- Footer CSS -->
     <link rel="stylesheet" href="css/footer.css"> 
@@ -87,39 +91,42 @@
         <!--====================================================== End Navigation Bar ========================================================================  -->
 
         <!--====================================================== Start Product Review ========================================================================  -->    
-        <div class="container mt-5">
-            <nav class="navtop">
-                <div>
-                    <h1>Reviews System</h1>
+        <div class="pt-5">
+            <div class="container mt-5">
+                <nav class="navtop">
+                    <div>
+                        <h1>Reviews System</h1>
+                    </div>
+                </nav>
+                </div>   
+                <div class="content home">
+                    <h2>Reviews</h2>
+                    <p>Check out the below reviews for our website.</p>
+                    <div class="reviews"></div>
+                    <script>
+                        const reviews_page_id = 1;
+                        fetch("reviews.php?page_id=" + reviews_page_id).then(response => response.text()).then(data => {
+                            document.querySelector(".reviews").innerHTML = data;
+                            document.querySelector(".reviews .write_review_btn").onclick = event => {
+                                event.preventDefault();
+                                document.querySelector(".reviews .write_review").style.display = 'block';
+                                document.querySelector(".reviews .write_review input[name='name']").focus();
+                            };
+                            document.querySelector(".reviews .write_review form").onsubmit = event => {
+                                event.preventDefault();
+                                fetch("reviews.php?page_id=" + reviews_page_id, {
+                                    method: 'POST',
+                                    body: new FormData(document.querySelector(".reviews .write_review form"))
+                                }).then(response => response.text()).then(data => {
+                                    document.querySelector(".reviews .write_review").innerHTML = data;
+                                });
+                            };
+                        });
+                    </script>
                 </div>
-            </nav>
-            </div>   
-            <div class="content home">
-                <h2>Reviews</h2>
-                <p>Check out the below reviews for our website.</p>
-                <div class="reviews"></div>
-                <script>
-                    const reviews_page_id = 1;
-                    fetch("reviews.php?page_id=" + reviews_page_id).then(response => response.text()).then(data => {
-                        document.querySelector(".reviews").innerHTML = data;
-                        document.querySelector(".reviews .write_review_btn").onclick = event => {
-                            event.preventDefault();
-                            document.querySelector(".reviews .write_review").style.display = 'block';
-                            document.querySelector(".reviews .write_review input[name='name']").focus();
-                        };
-                        document.querySelector(".reviews .write_review form").onsubmit = event => {
-                            event.preventDefault();
-                            fetch("reviews.php?page_id=" + reviews_page_id, {
-                                method: 'POST',
-                                body: new FormData(document.querySelector(".reviews .write_review form"))
-                            }).then(response => response.text()).then(data => {
-                                document.querySelector(".reviews .write_review").innerHTML = data;
-                            });
-                        };
-                    });
-                </script>
             </div>
         </div>    
+
         <!--====================================================== End Product Review ========================================================================  -->
         
         <!--====================================================== Start Footer ========================================================================  -->

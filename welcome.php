@@ -21,6 +21,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
     <!-- Custome CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/queries_style.css">
+
+    <!-- Responsive CSS File -->
+    <link rel="stylesheet" href="css/responsive.css">
 
     <!-- Footer CSS -->
     <link rel="stylesheet" href="css/footer.css"> 
@@ -70,8 +74,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         <li class="nav-item dropdown ms-5">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Queries</a>
                             <ul class="dropdown-menu mr-5" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Repair Center</a></li>
-                                <li><a class="dropdown-item" href="#">Authorized seller</a></li>
+                                <li><a class="dropdown-item" href="repair.php">Repair Center</a></li>
+                                <li><a class="dropdown-item" href="seller.php">Authorized seller</a></li>
                                 <!-- <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                             </ul>
@@ -96,18 +100,22 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <!--====================================================== End Navigation Bar ========================================================================  -->
 
     <!--====================================================== News Content ========================================================================  -->
-    <div class="page-header">
-        <h1>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to TechSpace.</h1>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="news-1">
-                <rssapp-wall id="VKfbIdtm7evBvq80"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+    <div class="pt-5">
+        <div class="mt-5">
+            <div class="page-header">
+                <h1>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to TechSpace.</h1>
             </div>
-        </div>   
-        <div class="row"> 
-            <div class="news-2">
-                <rssapp-wall id="PeNNCXa9qXfMNI9D"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="news-1">
+                        <rssapp-wall id="VKfbIdtm7evBvq80"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+                    </div>
+                </div>   
+                <div class="row"> 
+                    <div class="news-2">
+                        <rssapp-wall id="PeNNCXa9qXfMNI9D"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

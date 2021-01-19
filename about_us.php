@@ -7,7 +7,11 @@
 
     <!-- Custome CSS -->
     <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/queries_style.css">
     <link rel="stylesheet" href="css/about_us.css">
+
+    <!-- Responsive CSS File -->
+    <link rel="stylesheet" href="css/responsive.css">
 
     <!-- Footer CSS -->
     <link rel="stylesheet" href="css/footer.css"> 
@@ -77,7 +81,7 @@
     </nav>
 
     <!--====================================================== End Navigation Bar ========================================================================  -->
-    <div class="about_us">
+    <div class="about_us mt-3">
         <div class="about-section">
             <div class="inner-container">
                 <div class="box">

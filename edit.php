@@ -17,7 +17,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <!-- Custome CSS -->
-    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/queries_style.css">
+
+    <!-- Responsive CSS File -->
+    <link rel="stylesheet" href="css/responsive.css">
 
     <!-- Footer CSS -->
     <link rel="stylesheet" href="css/footer.css"> 
@@ -88,17 +92,18 @@
     <!--====================================================== End Navigation Bar ========================================================================  -->
 
     <!--====================================================== Start Edit Blog ========================================================================  -->
-
-   <div class="container mt-5">
-        <?php foreach($query as $q){ ?>
-            <form method="POST">
-                <input type="text" hidden value='<?php echo $q['id']?>' name="id">
-                <input type="text" placeholder="Blog Title" class="form-control my-3 bg-dark text-white text-center" name="title" value="<?php echo $q['title']?>">
-                <textarea name="content" class="form-control my-3 bg-dark text-white" cols="30" rows="10"><?php echo $q['content']?></textarea>
-                <button class="btn btn-dark" name="update">Update</button>
-            </form>
-        <?php } ?>    
-   </div>
+    <div class="pt-5">
+        <div class="container mt-5">
+            <?php foreach($query as $q){ ?>
+                <form method="POST">
+                    <input type="text" hidden value='<?php echo $q['id']?>' name="id">
+                    <input type="text" placeholder="Blog Title" class="form-control my-3 bg-dark text-white text-center" name="title" value="<?php echo $q['title']?>">
+                    <textarea name="content" class="form-control my-3 bg-dark text-white" cols="30" rows="10"><?php echo $q['content']?></textarea>
+                    <button class="btn btn-dark" name="update">Update</button>
+                </form>
+            <?php } ?>    
+        </div>
+    </div>
 
    <!--====================================================== End Edit Blog ========================================================================  -->
     

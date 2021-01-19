@@ -1,0 +1,405 @@
+/* Import Fonts from Fonts CSS */
+
+@import url(/css/fonts.css);
+
+/* CSS Variables */
+
+@import url(/css/partials/_variables.css);
+
+/* Global */
+
+@import url(/css/partials/_global.css);
+
+
+
+/* Start Navigation */
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}  
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--FiddlersCoveRegular-Mgge);
+    /* font: font-style font-weight font-size/line-height font-family */
+    font-family: var(--FiddlersCoveRegular-Mgge);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--primary-color_2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  
+    
+}
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--primary-color_2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+
+/* End Navigation */
+
+/* Banner Area */
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+
+/* End Banner Area */
+
+/* Start About Area */
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2> span{
+    display: block;
+    font: normal bold 49px 60px var(--FiddlersCoveRegular-Mgge);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: 0.4rem 0; 
+}
+
+/* End About Area */
+
+/* Start Brand Area */
+
+.site-main .brand-area{
+    padding: 1rem 20rem;
+    margin-bottom: 4rem;
+}
+
+.site-main .brand-area .first-row .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+
+.site-main .brand-area .first-row > .col-lg-4 > .single-brand{
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 1.8rem 0rem;
+    margin: 0.9rem 0rem;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+.site-main .brand-area .first-row > .col-lg-4 > .single-brand > img{
+    width: 50%;
+}
+
+.site-main .brand-area .first-row > .col-lg-4 > .single-brand:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+
+.site-main .brand-area .first-row > .col-lg-4 > .single-brand > img:hover{
+    filter: brightness(0.15);
+}
+
+.site-main .brand-area .experience-area{
+    padding: 1rem;
+}
+
+.site-main .brand-area .experience-area span{
+    display: block;
+}
+
+.site-main .brand-area .experience-area .years-area{
+    background: url(/images/client-info-bg.png) no-repeat 45px 20px;
+    padding: 2rem 0;
+    width: 40rem;
+    height: 18rem;
+    padding-left: 8rem;
+    position: relative;
+}
+
+.site-main .brand-area .experience-area .bg-panel{
+    position: absolute;
+    left: 190px;
+    top: 0%;
+    background: #e029290a;
+    width: 400px;
+    height: 400px;
+    margin-left: -40px;
+    z-index: -1;
+}
+
+.site-main .brand-area .experience-area .years-area .years{
+    font: normal bold 84px/40px var(--FiddlersCoveRegular-Mgge);
+    color: var(--primary-color_1);
+    z-index: 2;
+}
+
+.site-main .brand-area .experience-area .years-area h2 > span{
+    font: normal 600 20px/30px var(--FiddlersCoveRegular-Mgge);
+}
+
+.site-main .brand-area .experience-area .call-area{
+    padding-left: 10rem;
+}
+
+/* End Brand Area */
+
+/* Services Area */
+
+.site-main .services-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+}
+
+.site-main .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem 0.5rem;
+    transition: box-shadow 0.5s ease;
+}
+
+.site-main .services-area .services:hover{
+    box-shadow: var(--box-shadow); 
+}
+
+/* Project Area */
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--FiddlersCoveRegular-Mgge);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font:normal 700 25px/12px var(--FiddlersCoveRegular-Mgge);
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1);
+    filter: drop-shadow(1px 8px 30x #b1afaf);  
+    transition: box-shadow 0.1s ease; 
+    box-shadow: var(--box-shadow); 
+    
+}
+
+/* About Me */
+
+.site-main .about-area .about-title p{
+    padding: 1rem 7rem;
+}
+
+.site-main.about-area .client{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+
+.site-main.about-area .client .client-img{
+    padding: 2rem;
+}
+
+.site-main .about-area .client .about-client{
+    padding-top: 2rem;
+} 
+
+.site-main .about-area .client .about-client h4{
+    font: normal 500 21px/20px var(--FiddlersCoveRegular-Mgge);
+}
+
+.site-main .about-area .client .about-client p{
+    font-size: 14px;
+}
+
+.site-main .about-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0.1rem;
+}
+
+.site-main .about-area .owl-carousel .owl-dots .owl-dots.active span{
+    background: var(--primary-color_1);
+    width: 12px;
+    height: 12px;
+}
+
+/* End About Me */
+
+/* Subscribe Me */
+
+.site-main .subscribe-us .subscribe{
+    background: url(/images/subscribe-bg.png) no-repeat;
+    padding: 10rem 0rem;
+    margin: 3rem auto;
+}
+
+.site-main .subscribe-us .subscribe .subscribe-title{
+    font: normal 700 30px/30px var(--FiddlersCoveRegular-Mgge);
+    color: whitesmoke;
+}
+
+.site-main .subscribe-us .subscribe .subscribe-title p{
+    color: whitesmoke;
+    padding: 1rem 2rem;
+}
+
+.site-main .subscribe-us .subscribe .subscribe form .input-textbox input{
+    width: 400px;
+    padding: 1.5rem 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+    font: normal 500 17px/20px var(--FiddlersCoveRegular-Mgge);
+}
+
+.site-main .subscribe-us .subscribe .subscribe form .input-textbox input::placeholder{
+    color: whitesmoke;
+}
+
+.site-main .subscribe-us .subscribe .subscribe form .btn-submit button{
+    background: whitesmoke;
+    color: #000;
+    padding: 7rem 2rem;
+}
+
+/* End Subscribe Me */
+
+/* Footer-area */
+
+footer .footer-area{
+    padding: 5rem 0;
+    background: url(/images/footer-bg.png) no-repeat;
+}
+
+.footer-area .site-logo > a{
+    text-decoration: none;
+}
+
+.footer-area .social h5{
+    font: normal 500 23px/30px var(--FiddlersCoveRegular-Mgge);
+}
+
+.footer-area .social a{
+    font-size: 22px;
+    margin: 1rem;
+    padding: 0.2rem;
+    /* color: var(--border-color); */
+    color: gray;
+    transition: 0.5s ease;
+}
+
+.footer-area .social a:hover{
+    color: var(--primary-color_1);
+    box-shadow: var(--box-shadow);
+}
+
+/* End Footer-area */
+
+
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: var(--primary-color_1);
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.contact-form .btnContact:hover{
+    color: #fff;
+    box-shadow: var(--box-shadow);
+}
+
+/* End Project Area */
+
+
+
+
+

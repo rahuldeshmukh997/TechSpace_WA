@@ -1,0 +1,6 @@
+/* Font Face */
+
+@font-face{
+    font-family: "FiddlersCoveRegular-Mgge";
+    src: '../fonts/fiddlers-cove-font/FiddlersCoveRegular-Mgge.otf';
+}

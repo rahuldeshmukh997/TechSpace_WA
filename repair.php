@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
     <!-- Custome CSS -->
-    
-    <link rel="stylesheet" href="css/quries_style.css">
-    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/queries_style.css">
+
+    <!-- Responsive CSS File -->
+    <link rel="stylesheet" href="css/responsive.css">
 
     <!-- Footer CSS -->
     <link rel="stylesheet" href="css/footer.css"> 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-
-    <title>TechSpace | Blog</title>
-</head>
-<body>
+    
+    <title>TechSpace | Home</title>
+  </head>
+  <body>
     <!--====================================================== Navigation Bar ========================================================================  -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -38,7 +38,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item ms-5">
-                            <a class="nav-link" aria-current="page" href="welcome.php">Home</a>
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown ms-5">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Knoledge</a>
@@ -53,7 +53,7 @@
                             <a class="nav-link" href="index.php">Blog</a>
                         </li>
                         <li class="nav-item ms-5">
-                            <a class="nav-link" href="#">Product Reviews</a>
+                            <a class="nav-link" href="product.index.php">Product Reviews</a>
                         </li>
                         <li class="nav-item dropdown ms-5">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Queries</a>
@@ -72,7 +72,7 @@
                             </ul>
                         </li>  
                         <li class="nav-item ms-5">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="about_us.php">About Us</a>
                         </li>    
                         
                     </ul>
@@ -83,45 +83,96 @@
 
     <!--====================================================== End Navigation Bar ========================================================================  -->
 
-    <!-- ===================================================== Start Seller ================================================================================= -->
-    
-    <div class="cards">
-        <div class="card card1">
-            <div class="container">
-                <div class="quries-img">
-                    <img src="images/las vegas.jpg" alt="las vegas">
-                </div>
-            </div>
-            <div class="details">
-                <h3>Las Vegas</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-            </div>
-        </div>
-        <div class="card card2">
-            <div class="container">
-                <div class="quries-img">
-                    <img src="images/las vegas.jpg" alt="las vegas">
-                </div>
-            </div>
-            <div class="details">
-                <h3>New York</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-            </div>
-        </div>
-        <div class="card card3">
-            <div class="container">
-                <div class="quries-img">
-                    <img src="images/las vegas.jpg" alt="las vegas">
-                </div>
-            </div>
-            <div class="details">
-                <h3>Singapore</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-            </div>
-        </div>
-    </div>
+    <!--====================================================== News Content ========================================================================  -->
 
-    <!-- ===================================================== End Seller ================================================================================= -->
+    <main class="site-main pt-5 mt-5">
+
+        <section class="services-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center services-title">
+                        <h1 class="text-uppercase title-text">Services Offers</h1>
+                        <p class="para">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Dolorum aperiam accusantium placeat magnam dignissimos minus 
+                            possimus veritatis. Deserunt, ut eos.
+                        </p>
+                    </div>
+                </div>
+                <div class="container services-list">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                               <div class="services-img text-center py-4">
+                                   <img src="/images/services/s1.png" alt="services-1">
+                               </div> 
+                               <div class="card-body text-center">
+                                   <h5 class="card-title text-uppercase font-FiddlersCoveRegular-Mgge">Web Developer</h5>
+                                   <p class="card-text text-secondary">
+                                       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                       Itaque doloremque, dicta ex iusto optio rerum nam fuga 
+                                       placeat, et inventore harum nisi distinctio. Est officia
+                                       nobis unde molestiae voluptatem quaerat!
+                                   </p>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                               <div class="services-img text-center py-4">
+                                   <img src="/images/services/s2.png" alt="services-2">
+                               </div> 
+                               <div class="card-body text-center">
+                                   <h5 class="card-title text-uppercase font-FiddlersCoveRegular-Mgge">UX/UI Design</h5>
+                                   <p class="card-text text-secondary">
+                                       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                       Itaque doloremque, dicta ex iusto optio rerum nam fuga 
+                                       placeat, et inventore harum nisi distinctio. Est officia
+                                       nobis unde molestiae voluptatem quaerat!
+                                   </p>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                               <div class="services-img text-center py-4">
+                                   <img src="/images/services/s3.png" alt="services-3">
+                               </div> 
+                               <div class="card-body text-center">
+                                   <h5 class="card-title text-uppercase font-FiddlersCoveRegular-Mgge">Web Design</h5>
+                                   <p class="card-text text-secondary">
+                                       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                       Itaque doloremque, dicta ex iusto optio rerum nam fuga 
+                                       placeat, et inventore harum nisi distinctio. Est officia
+                                       nobis unde molestiae voluptatem quaerat!
+                                   </p>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                               <div class="services-img text-center py-4">
+                                   <img src="/images/services/s4.png" alt="services-4">
+                               </div> 
+                               <div class="card-body text-center">
+                                   <h5 class="card-title text-uppercase font-FiddlersCoveRegular-Mgge">SEO Optimize</h5>
+                                   <p class="card-text text-secondary">
+                                       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                       Itaque doloremque, dicta ex iusto optio rerum nam fuga 
+                                       placeat, et inventore harum nisi distinctio. Est officia
+                                       nobis unde molestiae voluptatem quaerat!
+                                   </p>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!--====================================================== End News Content ========================================================================  -->
 
     <!--====================================================== Start Footer ========================================================================  -->
 
@@ -189,20 +240,10 @@
 
 <!--====================================================== End Footer ========================================================================  -->
 
-    <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-
     <!-- jQuery File -->
     <script src="js/jquery.min.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
+    
     <!-- Bootstrap jQuery file -->
     <script src="js/bootstrap.min.js"></script>
-
-</body>
+  </body>
 </html>
-
-
