@@ -91,11 +91,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center services-title">
-                        <h1 class="text-uppercase title-text">Services Offers</h1>
+                        <h1 class="text-uppercase title-text">Authorized Sellers</h1>
                         <p class="para">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                            Dolorum aperiam accusantium placeat magnam dignissimos minus 
-                            possimus veritatis. Deserunt, ut eos.
+                            Here are some trusted electronics dealsers where you can buy products without any hesitation.
                         </p>
                     </div>
                 </div>
@@ -104,15 +102,18 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="services">
                                <div class="services-img text-center py-4">
-                                   <img src="/images/services/s1.png" alt="services-1">
+                                   <img src="images/shop.jpg" width="100" height="100" alt="services-1">
                                </div> 
                                <div class="card-body text-center">
-                                   <h5 class="card-title text-uppercase font-FiddlersCoveRegular-Mgge">Web Developer</h5>
+                                   <h5 class="card-title text-uppercase font-FiddlersCoveRegular-Mgge">Nitin Electronics</h5>
                                    <p class="card-text text-secondary">
-                                       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                       Itaque doloremque, dicta ex iusto optio rerum nam fuga 
-                                       placeat, et inventore harum nisi distinctio. Est officia
-                                       nobis unde molestiae voluptatem quaerat!
+                                        <i class="bi bi-shop">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+                                                <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+                                            </svg>
+                                            Address:<br> Shop No.A/3 ,Ground Floor, Narmada Ashish CHS Ltd, Dombivli, Maharashtra 421201<br>
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7535.3135960653635!2d73.09281923488768!3d19.210186799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7958f9adac095%3A0x447cc82bc0c60e2b!2sNarmada%20Ashish%20Society!5e0!3m2!1sen!2sin!4v1611155268850!5m2!1sen!2sin" width="150" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="mt-2"></iframe>
+                                        </i>
                                    </p>
                                </div>
                             </div>
@@ -120,15 +121,18 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="services">
                                <div class="services-img text-center py-4">
-                                   <img src="/images/services/s2.png" alt="services-2">
+                                   <img src="images/shop.jpg" width="100" height="100" alt="services-2">
                                </div> 
                                <div class="card-body text-center">
-                                   <h5 class="card-title text-uppercase font-FiddlersCoveRegular-Mgge">UX/UI Design</h5>
+                                   <h5 class="card-title text-uppercase font-FiddlersCoveRegular-Mgge">DIGI1</h5>
                                    <p class="card-text text-secondary">
-                                       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                       Itaque doloremque, dicta ex iusto optio rerum nam fuga 
-                                       placeat, et inventore harum nisi distinctio. Est officia
-                                       nobis unde molestiae voluptatem quaerat!
+                                        <i class="bi bi-shop">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+                                                <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+                                            </svg>
+                                            Address:<br> 1 YASHORAMA BLDG DR RP ROAD TILAK NAGAR CHAAR RASTA, near RANGOLI RESTAURANT, Dombivli East, Thane, Maharashtra 421204<br>
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.5615328813738!2d73.08915231531448!3d19.214344152601555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be795897b874373%3A0xee3af6848b69d5f5!2sDIGI1%20Dombivali%20East!5e0!3m2!1sen!2sin!4v1611155089913!5m2!1sen!2sin" width="150" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="mt-2"></iframe>
+                                        </i>
                                    </p>
                                </div>
                             </div>
@@ -136,15 +140,18 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="services">
                                <div class="services-img text-center py-4">
-                                   <img src="/images/services/s3.png" alt="services-3">
+                                   <img src="images/shop.jpg" width="100" height="100" alt="services-3">
                                </div> 
                                <div class="card-body text-center">
-                                   <h5 class="card-title text-uppercase font-FiddlersCoveRegular-Mgge">Web Design</h5>
+                                   <h5 class="card-title text-uppercase font-FiddlersCoveRegular-Mgge">Rajendra Electronics</h5>
                                    <p class="card-text text-secondary">
-                                       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                       Itaque doloremque, dicta ex iusto optio rerum nam fuga 
-                                       placeat, et inventore harum nisi distinctio. Est officia
-                                       nobis unde molestiae voluptatem quaerat!
+                                        <i class="bi bi-shop">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+                                                <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+                                            </svg>
+                                            Address:<br> Agarkar Rd, Krishna Radha Society, Dombivli East, Dombivli, Maharashtra 421201<br>
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.4746751584576!2d73.08837801531443!3d19.218133852482595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7958afb696345%3A0x85f9c07fdae05d8!2sAgarkar%20Rd%2C%20Krishna%20Radha%20Society%2C%20Dombivli%20East%2C%20Dombivli%2C%20Maharashtra%20421201!5e0!3m2!1sen!2sin!4v1611154605764!5m2!1sen!2sin" width="150" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="mt-2"></iframe>
+                                        </i>
                                    </p>
                                </div>
                             </div>
@@ -152,16 +159,19 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="services">
                                <div class="services-img text-center py-4">
-                                   <img src="/images/services/s4.png" alt="services-4">
+                                   <img src="images/shop.jpg" width="100" height="100" alt="services-4">
                                </div> 
                                <div class="card-body text-center">
-                                   <h5 class="card-title text-uppercase font-FiddlersCoveRegular-Mgge">SEO Optimize</h5>
-                                   <p class="card-text text-secondary">
-                                       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                       Itaque doloremque, dicta ex iusto optio rerum nam fuga 
-                                       placeat, et inventore harum nisi distinctio. Est officia
-                                       nobis unde molestiae voluptatem quaerat!
-                                   </p>
+                                    <h5 class="card-title text-uppercase font-FiddlersCoveRegular-Mgge">Sony Electronics</h5>
+                                    <p class="card-text text-secondary">
+                                        <i class="bi bi-shop">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+                                                <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+                                            </svg>
+                                            Address:<br> Chiplunkar Path, Manpada, Ramnagar, Dombivli East, Dombivli, Maharashtra 421201<br>
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.523999770916!2d73.08696361531445!3d19.215981852550048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7958a6a923aa9%3A0xfc7699af083a652e!2sSony%20Electronics%20Showroom!5e0!3m2!1sen!2sin!4v1611155445645!5m2!1sen!2sin" width="150" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="mt-2"></iframe>
+                                        </i>
+                                    </p>
                                </div>
                             </div>
                         </div>
