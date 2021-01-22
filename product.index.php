@@ -14,6 +14,8 @@
     <!-- Custome CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/queries_style.css">
+    <!-- <link href="css/product.style.css" rel="stylesheet" type="text/css"> -->
+	<link href="css/product.reviews.css" rel="stylesheet" type="text/css">
 
     <!-- Responsive CSS File -->
     <link rel="stylesheet" href="css/responsive.css">
@@ -21,9 +23,6 @@
     <!-- Footer CSS -->
     <link rel="stylesheet" href="css/footer.css"> 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-
-    <link href="css/product.style.css" rel="stylesheet" type="text/css">
-	<link href="css/product.reviews.css" rel="stylesheet" type="text/css">
 
     <title>TechSpace | Home</title>
 		
@@ -91,41 +90,87 @@
         <!--====================================================== End Navigation Bar ========================================================================  -->
 
         <!--====================================================== Start Product Review ========================================================================  -->    
-        <div class="pt-5">
-            <div class="container mt-5">
-                <nav class="navtop">
-                    <div>
-                        <h1>Reviews System</h1>
+        <!-- <div class="container-fluid">
+            <div class="pt-5">
+                <div class="container mt-5">
+                    <nav class="navtop">
+                        <div>
+                            <h1>Reviews System</h1>
+                        </div>
+                    </nav>
+                    </div>   
+                    <div class="content home">
+                        <h2>Reviews</h2>
+                        <p>Check out the below reviews for our website.</p>
+                        <div class="reviews"></div>
+                        <script>
+                            const reviews_page_id = 1;
+                            fetch("reviews.php?page_id=" + reviews_page_id).then(response => response.text()).then(data => {
+                                document.querySelector(".reviews").innerHTML = data;
+                                document.querySelector(".reviews .write_review_btn").onclick = event => {
+                                    event.preventDefault();
+                                    document.querySelector(".reviews .write_review").style.display = 'block';
+                                    document.querySelector(".reviews .write_review input[name='name']").focus();
+                                };
+                                document.querySelector(".reviews .write_review form").onsubmit = event => {
+                                    event.preventDefault();
+                                    fetch("reviews.php?page_id=" + reviews_page_id, {
+                                        method: 'POST',
+                                        body: new FormData(document.querySelector(".reviews .write_review form"))
+                                    }).then(response => response.text()).then(data => {
+                                        document.querySelector(".reviews .write_review").innerHTML = data;
+                                    });
+                                };
+                            });
+                        </script>
                     </div>
-                </nav>
-                </div>   
-                <div class="content home">
-                    <h2>Reviews</h2>
-                    <p>Check out the below reviews for our website.</p>
-                    <div class="reviews"></div>
-                    <script>
-                        const reviews_page_id = 1;
-                        fetch("reviews.php?page_id=" + reviews_page_id).then(response => response.text()).then(data => {
-                            document.querySelector(".reviews").innerHTML = data;
-                            document.querySelector(".reviews .write_review_btn").onclick = event => {
-                                event.preventDefault();
-                                document.querySelector(".reviews .write_review").style.display = 'block';
-                                document.querySelector(".reviews .write_review input[name='name']").focus();
-                            };
-                            document.querySelector(".reviews .write_review form").onsubmit = event => {
-                                event.preventDefault();
-                                fetch("reviews.php?page_id=" + reviews_page_id, {
-                                    method: 'POST',
-                                    body: new FormData(document.querySelector(".reviews .write_review form"))
-                                }).then(response => response.text()).then(data => {
-                                    document.querySelector(".reviews .write_review").innerHTML = data;
-                                });
-                            };
-                        });
-                    </script>
+                </div>
+            </div>    
+        </div> -->
+
+
+
+
+    <main class="site-main pt-2 mt-2">
+        <section class="about-area">
+            <div class="container-fluid">
+                <div class="container mt-5">
+                    <nav class="navtop">
+                        <div>
+                            <h1 style="text-align:center">Reviews</h1>
+                        </div>
+                    </nav>
+                    </div>   
+                    <div class="content home">
+                        <!-- <h2>Reviews</h2> -->
+                        <p style="text-align:center">Here you can write the reviews about your experience for any product and helps other to know about that product much better.</p>
+                        <div class="reviews"></div>
+                        <script>
+                            const reviews_page_id = 1;
+                            fetch("reviews.php?page_id=" + reviews_page_id).then(response => response.text()).then(data => {
+                                document.querySelector(".reviews").innerHTML = data;
+                                document.querySelector(".reviews .write_review_btn").onclick = event => {
+                                    event.preventDefault();
+                                    document.querySelector(".reviews .write_review").style.display = 'block';
+                                    document.querySelector(".reviews .write_review input[name='name']").focus();
+                                };
+                                document.querySelector(".reviews .write_review form").onsubmit = event => {
+                                    event.preventDefault();
+                                    fetch("reviews.php?page_id=" + reviews_page_id, {
+                                        method: 'POST',
+                                        body: new FormData(document.querySelector(".reviews .write_review form"))
+                                    }).then(response => response.text()).then(data => {
+                                        document.querySelector(".reviews .write_review").innerHTML = data;
+                                    });
+                                };
+                            });
+                        </script>
+                    </div>
                 </div>
             </div>
-        </div>    
+        </section>
+    </main>
+
 
         <!--====================================================== End Product Review ========================================================================  -->
         

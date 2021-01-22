@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
     font-size: 16px;
@@ -19,8 +19,8 @@ body {
 .navtop div {
     display: flex;
     margin: 0 auto;
-    width: 1000px;
-    height: 100%;
+    width: 1000px; 
+    height: 100%; 
 }
 .navtop div h1, .navtop div a {
     display: inline-flex;
@@ -47,7 +47,7 @@ body {
     color: #ecf0f6;
 }
 .content {
-    width: 1000px;
+    width: 1000px; 
     margin: 0 auto;
 }
 .content h2 {
@@ -60,9 +60,36 @@ body {
 
 
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) { */
   /* For mobile phones: */
-  body{
+  /* body{
     width: 100%;
   }
+} */
+
+/* ------------------------------------------------------------ */
+
+/* @media screen and (max-width:1200px){
+    body {
+        background-color: #FFFFFF;
+        margin: 0;
+        width: 100%;
+    }
 }
+
+@media screen and (max-width:1000px){
+    body {
+        background-color: #FFFFFF;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    body {
+        background-color: #FFFFFF;
+        margin: 0;
+        width: 100%;
+    }
+} */ 
+
