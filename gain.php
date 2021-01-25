@@ -31,7 +31,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html">
+            <a class="navbar-brand" href="welcome.php">
                 <img src="images/crop.jpg" alt="" width="30" height="24" class="d-inline-block align-top">
                 <span>TechSpace</span> 
             </a>
@@ -43,12 +43,12 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item ms-5">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="welcome.php">Home</a>
                         </li>
                         <li class="nav-item dropdown ms-5">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Knoledge</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Gain Knowledge</a></li>
+                                <li><a class="dropdown-item" href="gain.php">Gain Knowledge</a></li>
                                 <li><a class="dropdown-item" href="quiz.index.php">Technical Quiz</a></li>
                                 <!-- <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li> -->

@@ -25,7 +25,7 @@
 
      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html">
+            <a class="navbar-brand" href="welcome.php">
                 <img src="images/crop.jpg" alt="" width="30" height="24" class="d-inline-block align-top">
                 <span>TechSpace</span> 
             </a>
@@ -37,13 +37,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item ms-5">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="welcome.php">Home</a>
                         </li>
                         <li class="nav-item dropdown ms-5">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Knoledge</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Gain Knowledge</a></li>
-                                <li><a class="dropdown-item" href="#">Technical Quiz</a></li>
+                                <li><a class="dropdown-item" href="gain.php">Gain Knowledge</a></li>
+                                <li><a class="dropdown-item" href="quiz.index.php">Technical Quiz</a></li>
                                 <!-- <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                             </ul>
@@ -57,8 +57,8 @@
                         <li class="nav-item dropdown ms-5">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Queries</a>
                             <ul class="dropdown-menu mr-5" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Repair Center</a></li>
-                                <li><a class="dropdown-item" href="#">Authorized seller</a></li>
+                                <li><a class="dropdown-item" href="repair.php">Repair Center</a></li>
+                                <li><a class="dropdown-item" href="seller.php">Authorized seller</a></li>
                                 <!-- <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                             </ul>
@@ -71,7 +71,7 @@
                             </ul>
                         </li>  
                         <li class="nav-item ms-5">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="about_us.php">About Us</a>
                         </li>    
                         
                     </ul>
