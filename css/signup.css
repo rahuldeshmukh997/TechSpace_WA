@@ -46,7 +46,7 @@ body{
     border-color: #2ecc71;
 }
 
-.box button[type = "submit"]{
+.box input[type = "submit"]{
     border: 0;
     background: none;
     display: block;
@@ -61,13 +61,11 @@ body{
     cursor: pointer;
 }
 
-.box button[type = "submit"]:hover{
+.box input[type = "submit"]:hover{
     background: #2ecc71;
 }
 
-/* ============================================== */
-
-.box button[type = "reset"]{
+.box input[type = "reset"]{
     border: 0;
     background: none;
     display: block;
@@ -82,11 +80,9 @@ body{
     cursor: pointer;
 }
 
-.box button[type = "reset"]:hover{
+.box input[type = "reset"]:hover{
     background: #2ecc71;
 }
-
-/* =============================================== */
 
 .box button[type = "button"]{
     border: 0;
