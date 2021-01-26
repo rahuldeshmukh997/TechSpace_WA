@@ -94,7 +94,7 @@
                 </p>
                 <div class="skills">
                     <!-- <span>Web Design</span> -->
-                    <span>Founder of TechSpace</span>
+                    <span>Founder of TechSpace<br>Email: ssdeshmukh4015@gmail.com</span>
                     <!-- <span>Coding</span> -->
                 </div> 
             </div>
@@ -114,7 +114,7 @@
                 </p>
                 <div class="skills-2">
                     <!-- <span>Web Design</span> -->
-                    <span>Founder of TechSpace</span>
+                    <span>Founder of TechSpace<br>Email: rushivhatkar123@gmail.com</span>
                     <!-- <span>Coding</span> -->
                 </div> 
             </div>

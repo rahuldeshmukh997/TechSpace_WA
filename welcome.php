@@ -22,6 +22,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <!-- Custome CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/queries_style.css">
+    <link rel="stylesheet" href="css/popup.css">
 
     <!-- Responsive CSS File -->
     <link rel="stylesheet" href="css/responsive.css">
@@ -100,6 +101,29 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <!--====================================================== End Navigation Bar ========================================================================  -->
 
     <!--====================================================== News Content ========================================================================  -->
+    
+    <!-- ============================================================================================================================================== -->
+    <div class="popup">
+        <div id="boxes">
+            <div style="top: 50%; left: 50%; display: none;" id="dialog" class="window"> 
+                <div id="san">
+                    <a href="#" class="close agree"><img src="images/close-icon.png" width="25" style="float:right; margin-right: -25px; margin-top: -20px;"></a>
+                    <p>
+                        <h1>Disclaimer</h1><br>
+                        <h2>Welcome to TechSpace,</h2><br>
+                        This Website is a part of <b style="font-weight: 500;">College Academic Project</b> for educational purposes. We do not want to breach any privacy policies or copyright from any organisation or company.<br>If you have any concerns or questions please contact us on Email:<br>ssdeshmukh4015@gmail.com<br>rushivhatkar123@gmail.com
+                        
+
+                    </p>
+                </div>
+            </div>
+            <div style="width: 2478px; font-size: 32pt; color:white; height: 1202px; display: none; opacity: 0.4;" id="mask"></div>
+        </div>
+    </div>
+    
+    
+    
+    <!-- ================================================================================================================================================ -->
     <div class="pt-5">
         <div class="mt-5">
             <div class="page-header">
@@ -187,6 +211,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 
 <!--====================================================== End Footer ========================================================================  -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script> 
+    <script src="js/popup.js"></script>
 
     <!-- jQuery File -->
     <script src="js/jquery.min.js"></script>
