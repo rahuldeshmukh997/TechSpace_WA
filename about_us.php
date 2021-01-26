@@ -105,12 +105,12 @@
         <div class="about-section-2">
             <div class="inner-container-2">
                 <div class="box-2">
-                    <img src="images/suyash.jpg" alt="" class="box-img-2">
+                    <img src="images/rushikesh.jpg" alt="" class="box-img-2">
                 </div>
-                <h1>Suyash Deshmukh</h1>
+                <h1>Rushikesh Vhatkar</h1>
                 <p class="text-2">
                     Hello guys,
-                    I'm Suyash Deshmukh pursuing TY.Bsc.IT from Model college, Dombivli. This website Techspace as name suggests provide all the technology or technical related information at one place. Whether it's new invented technology in the world or about any product you want to buy. Hope this website will fullfill your need. Also we are trying to improve and to add new features to this website in the near future.
+                    I'm Rushikesh Vhatkar pursuing TY.Bsc.IT from Model college Dombivli. This website Techspace as name suggests provide all the technology or technical related information. In that we are providing you the letest updates of technolgies and with we are providing you the space and wall for writing your blogs and articles. This amaze website surely help people to find theire needful things.
                 </p>
                 <div class="skills-2">
                     <!-- <span>Web Design</span> -->
